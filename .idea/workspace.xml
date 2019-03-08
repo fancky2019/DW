@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e419678a-9be4-4ca2-a41e-d911a4041f4e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/tt.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/objectClass.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/objectClass.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/object.html" beforeDir="false" afterPath="$PROJECT_DIR$/object.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,7 +17,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JS/objectClass.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
@@ -31,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/object.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
-              <caret line="8" column="48" lean-forward="true" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+              <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -39,8 +38,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JS/匿名自执行函数.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="610">
-              <caret line="64" column="1" lean-forward="true" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
+            <state relative-caret-position="1600">
+              <caret line="64" column="1" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -56,15 +55,43 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/bootstrap-4.0.0.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-600" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-150" />
+            <state relative-caret-position="484">
+              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+              <folding>
+                <element signature="e#852#858#0" expanded="true" />
+                <element signature="e#858#864#0" expanded="true" />
+                <element signature="e#864#870#0" expanded="true" />
+                <element signature="e#870#876#0" expanded="true" />
+                <element signature="e#876#882#0" expanded="true" />
+                <element signature="e#882#888#0" expanded="true" />
+                <element signature="e#888#894#0" expanded="true" />
+                <element signature="e#894#900#0" expanded="true" />
+                <element signature="e#878#884#0" expanded="true" />
+                <element signature="e#884#890#0" expanded="true" />
+                <element signature="e#890#896#0" expanded="true" />
+                <element signature="e#896#902#0" expanded="true" />
+                <element signature="e#930#936#0" expanded="true" />
+                <element signature="e#936#942#0" expanded="true" />
+                <element signature="e#942#948#0" expanded="true" />
+                <element signature="e#948#954#0" expanded="true" />
+                <element signature="e#930#936#0" expanded="true" />
+                <element signature="e#936#942#0" expanded="true" />
+                <element signature="e#833#839#0" expanded="true" />
+                <element signature="e#839#845#0" expanded="true" />
+                <element signature="e#956#962#0" expanded="true" />
+                <element signature="e#962#968#0" expanded="true" />
+                <element signature="e#968#974#0" expanded="true" />
+                <element signature="e#974#980#0" expanded="true" />
+                <element signature="e#980#986#0" expanded="true" />
+                <element signature="e#986#992#0" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
@@ -81,17 +108,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/layOut.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+            <state relative-caret-position="875">
+              <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/singlePageTemplate.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1500" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -106,6 +131,7 @@
         <option value="$PROJECT_DIR$/JS/匿名自执行函数.js" />
         <option value="$PROJECT_DIR$/object.html" />
         <option value="$PROJECT_DIR$/JS/objectClass.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -119,6 +145,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -151,13 +178,17 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WebSite\DW\images" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -188,15 +219,15 @@
       <workItem from="1550109300487" duration="609000" />
       <workItem from="1550134437148" duration="2025000" />
       <workItem from="1550137784827" duration="2488000" />
+      <workItem from="1552022896964" duration="3789000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9717000" />
+    <option name="totallyTimeSpent" value="13506000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1932" height="1092" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17951426" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -245,6 +276,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/images/xiaomi8.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/objectClass.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/匿名自执行函数.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1600">
+          <caret line="64" column="1" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/JS/循环.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1275">
@@ -252,55 +307,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JS/匿名自执行函数.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="610">
-          <caret line="64" column="1" lean-forward="true" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/singlePageTemplate.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1500" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/bootstrap-4.0.0.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-600" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/xiaomi8.jpg">
-      <provider selected="true" editor-type-id="images" />
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/es6.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/layOut.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/button.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/object.html">
+    <entry file="file://$PROJECT_DIR$/layOut.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="48" lean-forward="true" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+        <state relative-caret-position="875">
+          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JS/objectClass.js">
+    <entry file="file://$PROJECT_DIR$/css/singlePageTemplate.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        <state relative-caret-position="484">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="e#852#858#0" expanded="true" />
+            <element signature="e#858#864#0" expanded="true" />
+            <element signature="e#864#870#0" expanded="true" />
+            <element signature="e#870#876#0" expanded="true" />
+            <element signature="e#876#882#0" expanded="true" />
+            <element signature="e#882#888#0" expanded="true" />
+            <element signature="e#888#894#0" expanded="true" />
+            <element signature="e#894#900#0" expanded="true" />
+            <element signature="e#878#884#0" expanded="true" />
+            <element signature="e#884#890#0" expanded="true" />
+            <element signature="e#890#896#0" expanded="true" />
+            <element signature="e#896#902#0" expanded="true" />
+            <element signature="e#930#936#0" expanded="true" />
+            <element signature="e#936#942#0" expanded="true" />
+            <element signature="e#942#948#0" expanded="true" />
+            <element signature="e#948#954#0" expanded="true" />
+            <element signature="e#930#936#0" expanded="true" />
+            <element signature="e#936#942#0" expanded="true" />
+            <element signature="e#833#839#0" expanded="true" />
+            <element signature="e#839#845#0" expanded="true" />
+            <element signature="e#956#962#0" expanded="true" />
+            <element signature="e#962#968#0" expanded="true" />
+            <element signature="e#968#974#0" expanded="true" />
+            <element signature="e#974#980#0" expanded="true" />
+            <element signature="e#980#986#0" expanded="true" />
+            <element signature="e#986#992#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
