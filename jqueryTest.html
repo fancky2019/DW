@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+    <li id="ptest">
+        <p>dsdssdsd</p>
+    <li><a id="test">sddssd</a></li>
+    </li>
+</div>
+<script src="JS/JQuery/jquery-3.3.1.min.js"></script>
+<script>
+    $(function () {
+        let id = $('#test').closest('li').attr('id');
+        console.log(id);
+    })
+</script>
+</body>
+
+
+</html>

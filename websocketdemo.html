@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<button type="button" id="btnConnect">connect</button>
+<input id="sendText" placeholder="Text to send"/>
+<button type="button" id="btnSend">send</button>
+<button type="button" id="btnDisconnect">disconnect</button>
+<pre id="incomming"></pre>
+</body>
+<script src="JS/JQuery/jquery-3.3.1.min.js"></script>
+<script>
+    var start = function () {
+        var inc = document.getElementById('incomming');
+        var wsImpl = window.WebSocket || window.MozWebSocket;
+        var form = document.getElementById('sendForm');
+        var input = document.getElementById('sendText');
+
+        inc.innerHTML += "connecting to server ..<br/>";
+
+        // create a new websocket and connect
+        window.ws = new wsImpl('ws://127.0.0.1:8031/');
+        // WebSocket ws=new WebSocket('ws://127.0.0.1:8031/');
+
+        // when data is comming from the server, this metod is called
+        ws.onmessage = function (evt) {
+            inc.innerHTML += evt.data + '<br/>';
+        };
+
+        // when the connection is established, this method is called
+        ws.onopen = function () {
+            inc.innerHTML += '.. connection open<br/>';
+        };
+
+        // when the connection is closed, this method is called
+        ws.onclose = function () {
+            inc.innerHTML += '.. connection closed<br/>';
+        }
+
+
+
+        // ws.close();
+        // form.addEventListener('submit', function (e) {
+        //     e.preventDefault();
+        //     var val = input.value;
+        //     ws.send(val);
+        //     input.value = "";
+        // });
+
+    }
+    // window.onload = start;
+
+    $(function () {
+
+        var inc = document.getElementById('incomming');
+        var input = document.getElementById('sendText');
+        inc.innerHTML += "connecting to server ..<br/>";
+
+        // create a new websocket and connect
+        // window.ws = new wsImpl('ws://127.0.0.1:8031/');
+        let ws=null;
+        $('#btnConnect').on('click', function () {
+            // create a new websocket and connect
+             ws=new WebSocket('ws://127.0.0.1:8031/');
+            // when data is comming from the server, this metod is called
+            ws.onmessage = function (evt) {
+                inc.innerHTML += evt.data + '<br/>';
+            };
+
+            // when the connection is established, this method is called
+            ws.onopen = function () {
+                inc.innerHTML += '.. connection open<br/>';
+            };
+
+            // when the connection is closed, this method is called
+            ws.onclose = function () {
+                inc.innerHTML += '.. connection closed<br/>';
+            }
+        });
+
+
+        $('#btnSend').on('click', function () {
+            var val = input.value;
+            if(!window.WebSocket||ws==null){return;}
+            if(ws.readyState == WebSocket.OPEN){
+                ws.send(message);
+            }else{
+                alert("WebSocket 连接没有建立成功！");
+            }
+        });
+
+        $('#btnDisconnect').on('click', function () {
+            ws.close();
+        });
+    });
+
+</script>
+</html>
